@@ -1,0 +1,9 @@
+environment       = "prod"
+project_name      = "devops-portfolio"
+postgres_db       = "notesdb"
+postgres_password = "super-secret-prod"
+backend_replicas  = 3
+frontend_port     = 80
+backend_port      = 5000
+network_subnet    = "172.30.0.0/16"
+monitoring_subnet = "172.31.0.0/16"
