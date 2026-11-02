@@ -31,10 +31,10 @@ output "backend_containers" {
 output "infrastructure_summary" {
   description = "Resumen de la infraestructura creada"
   value = {
-    environment  = var.environment
-    project      = var.project_name
-    app_url      = module.app.frontend_url
-    replicas     = var.backend_replicas
-    managed_by   = "terraform"
+    environment = var.environment
+    project     = var.project_name
+    app_url     = module.app.frontend_url
+    replicas    = var.backend_replicas
+    managed_by  = "terraform"
   }
 }
